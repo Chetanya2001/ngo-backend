@@ -1,0 +1,23 @@
+# Ignore environment variables file
+.env
+
+# Ignore node_modules directory (dependencies)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build or output directories
+/dist
+/build
+
+# Ignore temporary files from editors
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Sequelize generated files (optional, only if you're not using migrations)
+sequelize-meta.json
